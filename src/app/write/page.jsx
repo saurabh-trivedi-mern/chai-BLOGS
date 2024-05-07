@@ -11,7 +11,7 @@ import {
   ref,
   uploadBytesResumable,
   getDownloadURL,
-} from "firebase/storage";
+} from "firebase/storage"; //firebase database 
 import { app } from "../../utils/firebase";
 import ReactQuill from "react-quill";
 
