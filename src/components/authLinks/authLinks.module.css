@@ -1,0 +1,97 @@
+.logout{
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 400px;
+    transition: 0.2s all;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    position: relative;
+}
+
+.logout::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 4px;
+    width: 0%;
+    border-radius: 30%;
+    background-color: rgba(217, 142, 3, 0.867);
+    transition: all ease-in 0.5s;
+}
+
+.logout:hover::after{
+    width: 100%;
+}
+
+.burger{
+    width: 20px;
+    height: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    display: none;
+}
+
+.line{
+    width: 100%;
+    height: 2px;
+    background-color: rgb(115, 115, 138);
+}
+
+.link{
+    font-size: 20px;
+    font-weight: 400px;
+    transition: 0.2s all;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    position: relative;
+}
+
+.link::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 4px;
+    width: 0%;
+    border-radius: 30%;
+    background-color: rgba(217, 142, 3, 0.867);
+    transition: all ease-in 0.5s;
+}
+
+.link:hover::after{
+    width: 100%;
+}
+
+.color{
+    color : rgb(115, 115, 138);
+}
+
+.responsiveMenu{
+    z-index: 1000;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    background-color: var(--bg);
+    height : calc(100vh -  100px);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    font-size: 36px;
+}
+
+@media screen and (max-width: 640px){
+    .burger{
+        display: flex;
+    }
+    .link{
+        display: none;
+    }
+}

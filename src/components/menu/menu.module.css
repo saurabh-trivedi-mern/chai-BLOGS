@@ -1,0 +1,25 @@
+.container{
+    flex: 2;
+    margin-top: 50px;
+    /* background-color: rgba(182, 179, 177, 0.277); */
+    padding: 25px;
+    border-radius: 10px;
+    border-left: 2.5px solid rgba(217, 142, 3, 0.867);
+}
+
+.subtitle{
+    color: rgba(217, 142, 3, 0.867);
+    font-size: 15px;
+    font-weight: 400px;
+}
+
+.title{
+    font-size: 25px;
+}
+
+@media screen and (max-width:1024px){
+    .container{
+        display: none;
+    }
+}
+

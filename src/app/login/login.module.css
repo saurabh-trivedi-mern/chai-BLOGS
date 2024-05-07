@@ -1,0 +1,45 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.wrapper{
+    background-color: var(--softBg);
+    padding: 70px 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.optionBtn{
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.optionBtn:nth-child(1){
+    background-color: #DB4437;
+}
+
+.optionBtn:nth-child(2){
+    background-color: black;
+}
+
+.optionBtn:nth-child(3){
+    background-color: #0a66c2;
+}
+
+@media screen and (max-width:768px){
+    .wrapper{
+        padding: 40px 80px;
+    }
+}

@@ -1,0 +1,60 @@
+
+.categoryList{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.categoryListItem{
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 14px;
+    color: white;
+    transition: 0.3s all;
+}
+
+.categoryListItem:hover{
+    scale: 1.1;
+}
+
+.categoryListItem.java{
+    background-color: rgb(154, 113, 37);
+}
+
+.categoryListItem.cpp{
+    background-color: rgb(9, 108, 102);
+}
+
+.categoryListItem.reactjs{
+    background-color: rgb(68, 160, 205);
+}
+
+.categoryListItem.nextjs{
+    background-color: rgb(50, 50, 53);
+}
+
+.categoryListItem.kotlin{
+    background-color: rgb(230, 133, 91);
+}
+
+.categoryListItem.nodejs{
+    background-color: rgb(78, 151, 54);
+}
+
+.categoryListItem.mongodb{
+    background-color: rgb(38, 199, 10);
+}
+
+.categoryListItem.postgres{
+    background-color: rgb(41, 138, 167);
+}
+
+.categoryListItem.tailwind{
+    background-color: rgb(213, 193, 39);
+}
+
+.categoryListItem.css{
+    background-color: rgb(177, 25, 25);
+}

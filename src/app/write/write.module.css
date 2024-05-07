@@ -1,0 +1,82 @@
+.container{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid rgba(217, 142, 3, 0.867);
+  border-radius: 10px;
+  padding: 10px;
+}
+  
+.select{
+  margin-bottom: 50px;
+  padding: 10px 20px;
+  margin-left: 20px;
+  width: max-content;
+  background-color: rgb(195, 195, 195);
+  border-radius: 10px;
+  outline: none;
+}
+  
+.editor {
+  display: flex;
+  gap: 20px;
+  height: 700px;
+  position: relative;
+}
+  
+.button,
+.addButton {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 1px solid var(--textColor); 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 20px;
+}  
+  
+.addButton {
+  border-color: rgba(217, 142, 3, 0.867);
+}
+  
+.add {
+  display: flex;
+  gap: 20px;
+  background-color: var(--bg);
+  position: absolute;
+  z-index: 999;
+  width: 100%;
+  left: 50px;
+}
+  
+.input{
+  padding: 20px;
+  font-size: 50px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: var(--textColor);
+}
+  
+.input::placeholder{
+  color: #b3b3b1;
+}
+  
+.textArea {
+  width: 100%;
+}
+  
+.publish{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 10px 20px;
+  border: none;
+  background-color: rgba(217, 142, 3, 0.867);
+  color: white;
+  cursor: pointer;
+  border-radius: 20px;
+}

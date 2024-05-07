@@ -1,0 +1,146 @@
+
+.heading{
+    margin : 80px 0px 40px 0px;
+    text-align: center;
+}
+
+.categories{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* gap: 20px; */
+    perspective: 500px;
+}
+
+.category{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-transform: capitalize;
+    width: 15%;
+    height: 60px;
+    justify-content: center;
+    border-radius: 12px;
+    padding: 10px;
+    transition: 0.5s all;
+}
+
+.category:hover{
+    transform: rotateX(-15deg);
+}
+
+.image{
+    border-radius: 50%;
+}
+
+.category:hover .image{
+    box-shadow: 0px 0px 10px 5px white;
+}
+
+.category.webdev{
+    color: rgba(217, 142, 3, 0.867);
+    border: 2px solid rgba(217, 142, 3, 0.867);
+    border-right: 0px;
+}
+
+.category.webdev:hover{
+    color: black;
+    background-color: rgba(217, 142, 3, 0.867);
+    box-shadow: 0px 0px 10px 6px rgba(212, 161, 65, 0.4);
+}
+
+.category.android{
+    color: rgba(78, 132, 193, 0.873);
+    border: 2px solid rgba(78, 132, 193, 0.873);
+    border-right: 0px;
+    border-left: 0px;
+}
+
+.category.android:hover{
+    color: black;
+    background-color: rgba(78, 132, 193, 0.873);
+    box-shadow: 0px 0px 10px 6px rgba(78, 132, 193, 0.4);
+}
+
+.category.ds{
+    color: rgba(109, 145, 62, 0.816);
+    border: 2px solid rgba(109, 145, 62, 0.816);
+    border-right: 0px;
+    border-left: 0px;
+}
+
+.category.ds:hover{
+    color: black;
+    background-color: rgba(168, 220, 100, 0.816);
+    box-shadow: 0px 0px 10px 6px rgba(168, 220, 100, 0.4);
+}
+
+.category.algorithms{
+    color: rgba(69, 172, 165, 0.852);
+    border: 2px solid rgba(69, 172, 165, 0.852);
+    border-right: 0px;
+    border-left: 0px;
+}
+
+.category.algorithms:hover{
+    color: black;
+    background-color: rgba(109, 234, 226, 0.852);
+    box-shadow: 0px 0px 10px 6px rgba(109, 234, 226, 0.4);
+}
+
+.category.blockchain{
+    color: rgba(169, 135, 60, 0.858);
+    border: 2px solid rgba(169, 135, 60, 0.858);
+    border-right: 0px;
+    border-left: 0px;
+}
+
+.category.blockchain:hover{
+    color: black;
+    background-color: rgba(230, 184, 85, 0.858);
+    box-shadow: 0px 0px 10px 6px rgba(230, 184, 85, 0.4);
+}
+
+.category.hacking{
+    color: rgba(185, 69, 71, 0.86);
+    border: 2px solid rgba(185, 69, 71, 0.86);
+    border-left: 0px;
+}
+
+.category.hacking:hover{
+    color: black;
+    background-color: rgba(230, 87, 89, 0.86);
+    box-shadow: 0px 0px 10px 6px rgba(230, 87, 89, 0.4);
+}
+
+@media screen and (max-width:1280px){
+    .category{
+        width : 20%;
+        margin: 10px;
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width:1024px){
+    .category{
+        width : 25%;
+        margin: 10px;
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .category{
+        width : 45%;
+        margin: 10px;
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width:640px){
+    .category{
+        width : 100%;
+        margin: 10px;
+        padding: 5px;
+    }
+}
