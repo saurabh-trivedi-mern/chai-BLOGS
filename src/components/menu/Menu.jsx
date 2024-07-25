@@ -12,17 +12,10 @@ const Menu = () => {
       <h1 className={styles.genresTitle}>More Categories!</h1>
       <MenuCategories />
 
-
       {/* Trending Blogs  */}
       <h2 className={styles.subtitle}>{"It's Trending"}</h2>
       <h1 className={styles.title}>Most Popular</h1>
       <MenuPosts withImage={true}/>
-        
-
-      {/* Editor's Picks  */}
-      {/* <h2 className={styles.subtitle}>Editor's Picks</h2>
-      <h1 className={styles.title}>Most Favorites</h1>
-      <MenuPosts withImage={true}/> */}
         
    </div>
   )

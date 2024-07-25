@@ -5,7 +5,7 @@ import styles from "./write.module.css";
 import { useEffect, useState } from "react";
 import "react-quill/dist/quill.bubble.css";
 import { useRouter } from "next/navigation";
-// import { useSession } from "next-auth/react";
+import { useSession } from "next-auth/react";
 import {
   getStorage,
   ref,
@@ -16,7 +16,7 @@ import { app } from "../../utils/firebase";
 import ReactQuill from "react-quill";
 
 const WritePage = () => {
-  // const { status } = useSession();
+  const { status } = useSession();
   const router = useRouter();
 
   const [open, setOpen] = useState(false);
@@ -62,13 +62,13 @@ const WritePage = () => {
     file && upload();
   }, [file]);
 
-  // if (status === "loading") {
-  //   return <div className={styles.loading}>Loading...</div>;
-  // }
+  if (status === "loading") {
+    return <div className={styles.loading}>Loading...</div>;
+  }
 
-  // if (status === "unauthenticated") {
-  //   router.push("/");
-  // }
+  if (status === "unauthenticated") {
+    router.push("/");
+  }
 
   const slugify = (str) =>
     (
@@ -91,7 +91,7 @@ const WritePage = () => {
 
     if (res.status === 200) {
       const data = await res.json();
-      router.push(`/posts/${data?.slug}`);
+      router.push(`/blogs`);
     }
   };
 

@@ -11,7 +11,7 @@ const Footer = () => {
           <Image src="/logo.png" alt="logo" width={50} height={50} />
           <h1 className={styles.logoText}>Chai-BLOG</h1>
         </div>
-        <p className={styles.desc}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed similique accusamus asperiores necessitatibus molestias eligendi sunt nesciunt nihil sit tempore!</p>
+        <p className={styles.desc}>A Paradise For Tech-Savy People! Read, Write & Discuss About Endless Technologies.</p>
         <div className={styles.icons}>
           <Image src="/facebook.png" alt='facebook' width={18} height={18} />
           <Image src="/instagram.png" alt='instagram' width={18} height={18} />
@@ -23,16 +23,14 @@ const Footer = () => {
         <div className={styles.list}>
           <span className={styles.listTitle}>Links</span>
           <Link href="/" >Home</Link>
-          <Link href="/" >Blogs</Link>
-          <Link href="/" >About</Link>
-          <Link href="/" >Contact</Link>
+          <Link href="/blogs" >Blogs</Link>
+          <Link href="/creator" >Creator</Link>
         </div>
         <div className={styles.list}>
           <span className={styles.listTitle}>Tags</span>
-          <Link href="/" >Style</Link>
-          <Link href="/" >Fashion</Link>
-          <Link href="/" >Travel</Link>
-          <Link href="/" >Coding</Link>
+          <Link href="/blogs?cat=nextjs">NextJS</Link>
+          <Link href="/blogs?cat=nodejs">NodeJS</Link>
+          <Link href="/blogs?cat=reactjs">ReactJS</Link>
         </div>
       </div>
     </div>

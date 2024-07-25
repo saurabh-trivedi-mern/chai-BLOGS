@@ -4,8 +4,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    color: var(--softTextColor);
-    background-color: rgba(182, 179, 177, 0.277);
+    color: var(--textColor);
+    background-color: rgba(138, 136, 134, 0.277);
     padding: 25px;
     border-radius: 10px 10px 0px 0px;
 }

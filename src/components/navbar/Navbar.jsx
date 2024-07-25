@@ -1,3 +1,4 @@
+
 import React from 'react'
 import styles from './navbar.module.css'
 // import Image from 'next/image'
@@ -14,10 +15,11 @@ const Navbar = () => {
         </div>  
         <div className={styles.links}> 
           <Link href="/" className={styles.link}>Home</Link>
-          <Link href="/contact" className={styles.link}>Contact</Link>
+          {/* <Link href="/contact" className={styles.link}>Contact</Link> */}
+          <Link href="/blogs" className={styles.link}>Blogs</Link>
+          {/* <Link href="/write" className={styles.link}>Write</Link> */}
           <Link href="/creator" className={styles.link}>Creator</Link>
-          <Link href="/write" className={styles.link}>Write</Link>
-          {/* <AuthLinks /> */}
+          <AuthLinks />
           <ThemeToggle />
         </div>
     </div>

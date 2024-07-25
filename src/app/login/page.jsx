@@ -22,8 +22,11 @@ const LoginPage = () => {
   return (
     <div>
       <div className={styles.container}>
+      <h4>USER LOGIN</h4>
       <div className={styles.wrapper}>
       <div className={styles.optionBtn} onClick={()=>signIn("google")}>Sign in with Google</div>
+      <div className={styles.optionBtn} onClick={()=>signIn("google")}>Sign in with Github</div>
+      <div className={styles.optionBtn} onClick={()=>signIn("google")}>Sign in with LinkedIn</div>
       </div>
       </div>
     </div>
