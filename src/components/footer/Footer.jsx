@@ -9,14 +9,14 @@ const Footer = () => {
       <div className={styles.info}>
         <div className={styles.logo}>
           <Image src="/logo.png" alt="logo" width={50} height={50} />
-          <h1 className={styles.logoText}>Chai-BLOG</h1>
+          <h1 className={styles.logoText}>Chai-BLOGS</h1>
         </div>
-        <p className={styles.desc}>A Paradise For Tech-Savy People! Read, Write & Discuss About Endless Technologies.</p>
+        <p className={styles.desc}>A Paradise For Techy Guys! You Can Read, Write & Discuss On Endless Technologies.</p>
         <div className={styles.icons}>
-          <Image src="/facebook.png" alt='facebook' width={18} height={18} />
-          <Image src="/instagram.png" alt='instagram' width={18} height={18} />
-          <Image src="/tiktok.png" alt='tiktok' width={18} height={18} />
-          <Image src="/youtube.png" alt='youtube' width={18} height={18} />
+            <Link href="https://www.linkedin.com/in/saurabh-trivedi-mern/" target='_blank'><Image className={styles.social} src="/linkedin.png" alt='linkedin' width={24} height={24}/></Link>
+            <Link href="https://github.com/saurabh-trivedi-mern?tab=repositories" target='_blank'><Image className={styles.social} src="/github.png" alt='github' width={26} height={26}/></Link>
+            <Link href="https://leetcode.com/u/saurabh-trivedi/" target='_blank'><Image className={styles.social} src="/leetcode.png" alt='leetcode' width={36} height={24}/></Link> 
+            <Link href="https://www.instagram.com/saurabh.jkt/" target='_blank'><Image className={styles.social} src="/instagram.png" alt='instagram' width={24} height={24}/></Link>
         </div>
       </div>
       <div className={styles.links}>

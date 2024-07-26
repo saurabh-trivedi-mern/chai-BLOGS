@@ -8,7 +8,7 @@ const Featured = () => {
     <>
     <div className={styles.container}>
       <h1 className={styles.title}>
-        Empowering Tomorrow&apos;s Innovators Today: Explore, Learn, and Conquer with Our Tech-Savvy Blog Platform!
+        Empowering Tomorrow&apos;s Innovators Today: Explore, Learn, and Conquer with Our Tech-Savy Blog Platform!
       </h1>
       <div className={styles.post}>
         <div className={styles.floating}></div>
@@ -17,9 +17,13 @@ const Featured = () => {
         </div>
         <div className={styles.textContainer}>
           <h1 className={styles.postTitle}>&quot;Mastering ReactJS: Unleash the Power of Component-Based UI Development!&quot;</h1>
-          <p className={styles.postDesc}>ReactJS offers numerous benefits for modern web development. Its component-based architecture fosters code reusability, simplifying maintenance and enhancing scalability. Virtual DOM enables efficient updates, boosting performance. JSX syntax facilitates the creation of dynamic and intuitive UIs, enhancing developer productivity. React&apos;s strong ecosystem, supported by a vast community and comprehensive documentation, empowers developers to build robust, feature-rich applications with ease, making it a top choice for frontend development.</p>
-          {/* <button className={styles.button}>Read More!</button> */}
-          <Link className={styles.button} href={"/posts/tanish-bhai"} >Read More!</Link>
+          <p className={styles.postDesc}>ReactJS offers numerous benefits for modern web development. 
+            Its component-based architecture fosters code reusability, simplifying maintenance and enhancing scalability. 
+            Virtual DOM enables efficient updates, boosting performance. 
+            JSX syntax facilitates the creation of dynamic and intuitive UIs, enhancing developer productivity. 
+            React&apos;s strong ecosystem, supported by a vast community and comprehensive documentation, empowers 
+            developers to build robust, feature-rich applications with ease, making it a top choice for frontend development.</p>          
+            <Link className={styles.button} href={"/posts/tanish-bhai"}>Read More!</Link>
         </div>
       </div>
     </div> 

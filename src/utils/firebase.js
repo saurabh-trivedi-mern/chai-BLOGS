@@ -8,12 +8,12 @@ import { getAnalytics } from "firebase/analytics";
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
   apiKey: process.env.FIREBASE,
-  authDomain: "chaiblogs-fb510.firebaseapp.com",
-  projectId: "chaiblogs-fb510",
-  storageBucket: "chaiblogs-fb510.appspot.com",
-  messagingSenderId: "372392810210",
-  appId: "1:372392810210:web:cef1546fb6773057bef0bb",
-  measurementId: "G-TT43R1PM7P"
+  authDomain: "blogging-d3395.firebaseapp.com",
+  projectId: "blogging-d3395",
+  storageBucket: "blogging-d3395.appspot.com",
+  messagingSenderId: "1099106138703",
+  appId: "1:1099106138703:web:0174cd83ace80aae80883a",
+  measurementId: "G-B5QJTW22LZ"
 };
 
 // Initialize Firebase

@@ -19,7 +19,7 @@ const WritePage = () => {
   const { status } = useSession();
   const router = useRouter();
 
-  const [open, setOpen] = useState(false);
+  // const [open, setOpen] = useState(false);
   const [file, setFile] = useState(null);
   const [media, setMedia] = useState("");
   const [value, setValue] = useState("");
@@ -105,16 +105,16 @@ const WritePage = () => {
       />
       <select className={styles.select} onChange={(e) => setCatSlug(e.target.value)}>
         <option value="Web Development">Web Development</option>
-        <option value="android">android</option>
-        <option value="ds">data structures</option>
-        <option value="algorithms">algorithms</option>
-        <option value="blockchain">blockchain</option>
-        <option value="hacking">hacking</option>
-        <option value="java">java</option>
+        <option value="android">Android</option>
+        <option value="ds">Data Structures</option>
+        <option value="algorithms">Algorithms</option>
+        <option value="blockchain">Blockchain</option>
+        <option value="hacking">Ethical Hacking</option>
+        <option value="java">Java</option>
         <option value="MongoDB">MongoDB</option>
       </select>
       <div className={styles.editor}>
-        <button className={styles.button} onClick={() => setOpen(!open)}>
+        {/* <button className={styles.button} onClick={() => setOpen(!open)}>
           {open && `x`} {!open && `+`}
         </button>
         {open && (
@@ -131,7 +131,20 @@ const WritePage = () => {
               </label>
             </button>
           </div>
-        )}
+        )} */}
+        <div className={styles.button}>
+            <input
+              type="file"
+              id="image"
+              onChange={(e) => setFile(e.target.files[0])}
+              style={{ display: "none" }}
+            />
+            <button className={styles.addButton}>
+              <label htmlFor="image">
+                +
+              </label>
+            </button>
+          </div>
         <ReactQuill
           className={styles.textArea}
           theme="bubble"
