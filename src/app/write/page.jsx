@@ -111,7 +111,10 @@ const WritePage = () => {
         <option value="blockchain">Blockchain</option>
         <option value="hacking">Ethical Hacking</option>
         <option value="java">Java</option>
-        <option value="MongoDB">MongoDB</option>
+        <option value="mongodb">MongoDB</option>
+        <option value="tailwind">Tailwind CSS</option>
+        <option value="css">CSS</option>
+        <option value="java">Java</option>
       </select>
       <div className={styles.editor}>
         {/* <button className={styles.button} onClick={() => setOpen(!open)}>
