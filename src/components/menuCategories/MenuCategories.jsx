@@ -16,6 +16,17 @@ const MenuCategories = () => {
         <Link href="/blogs?cat=postgresql" className={`${styles.categoryListItem} ${styles.postgres}`}>PostgreSQL</Link>
         <Link href="/blogs?cat=tailwind" className={`${styles.categoryListItem} ${styles.tailwind}`}>Tailwind CSS</Link>
         <Link href="/blogs?cat=css" className={`${styles.categoryListItem} ${styles.css}`}>CSS</Link>
+        <Link href="/blogs?cat=mern" className={`${styles.categoryListItem} ${styles.cpp}`}>MERN</Link>
+        <Link href="/blogs?cat=django" className={`${styles.categoryListItem} ${styles.nodejs}`}>Django</Link>
+        <Link href="/blogs?cat=devops" className={`${styles.categoryListItem} ${styles.kotlin}`}>DevOps</Link>
+        <Link href="/blogs?cat=seo" className={`${styles.categoryListItem} ${styles.java}`}>SEO</Link>
+        <Link href="/blogs?cat=angular" className={`${styles.categoryListItem} ${styles.css}`}>Angular</Link>
+        <Link href="/blogs?cat=flutter" className={`${styles.categoryListItem} ${styles.reactjs}`}>Flutter</Link>
+        <Link href="/blogs?cat=flask" className={`${styles.categoryListItem} ${styles.mongodb}`}>Flask</Link>
+        <Link href="/blogs?cat=html" className={`${styles.categoryListItem} ${styles.postgres}`}>HTML</Link>
+        <Link href="/blogs?cat=prisma" className={`${styles.categoryListItem} ${styles.nextjs}`}>Prisma</Link>
+        <Link href="/blogs?cat=mongoose" className={`${styles.categoryListItem} ${styles.tailwind}`}>Mongoose</Link>
+        <Link href="/blogs?cat=bootstrap" className={`${styles.categoryListItem} ${styles.reactjs}`}>Bootstrap</Link>
       </div>
     </div>
   )

@@ -44,15 +44,15 @@
     background-color: orange;
 }
 
-.category.fashion{
-    background-color: rgb(81, 81, 148);
+.category.flutter{
+    background-color: rgb(117, 162, 222);
 }
 
-.category.food{
+.category.nodejs{
     background-color: rgb(128, 172, 69);
 }
 
-.category.travel{
+.category.css{
     background-color: rgb(69, 172, 165);
 }
 
@@ -60,8 +60,8 @@
     background-color: rgb(169, 135, 60);
 }
 
-.category.coding{
-    background-color: rgb(233, 255, 136);
+.category.java{
+    background-color: rgb(188, 223, 31);
 }
 
 .categoryList{

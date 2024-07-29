@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Chai-BLOGS',
-  description: 'Your Blogs Struggle Ends Here.',
+  description: 'Your Tech Blogs Struggle Ends Here.',
 }
 
 export default function RootLayout({ children }) {

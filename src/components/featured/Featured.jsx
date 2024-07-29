@@ -23,7 +23,7 @@ const Featured = () => {
             JSX syntax facilitates the creation of dynamic and intuitive UIs, enhancing developer productivity. 
             React&apos;s strong ecosystem, supported by a vast community and comprehensive documentation, empowers 
             developers to build robust, feature-rich applications with ease, making it a top choice for frontend development.</p>          
-            <Link className={styles.button} href={"/posts/tanish-bhai"}>Read More!</Link>
+            <Link className={styles.button} href={"posts/mastering-reactjs-unleash-the-power-of-component-based-ui-development526949731677726"}>Read More!</Link>
         </div>
       </div>
     </div> 

@@ -43,6 +43,9 @@ const SinglePage = async ({params}) => {
             <div
              className={styles.desc} 
              dangerouslySetInnerHTML={{__html: data?.desc}} 
+            //  dangerouslySetInnerHTML={{
+            //   __html: DOMPurify.sanitize(data?.desc),
+            // }}
             />
             <div className={styles.comments}>
                 <Comments postSlug={slug} />

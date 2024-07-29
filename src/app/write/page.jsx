@@ -115,6 +115,7 @@ const WritePage = () => {
         <option value="tailwind">Tailwind CSS</option>
         <option value="css">CSS</option>
         <option value="java">Java</option>
+        <option value="flutter">Flutter</option>
       </select>
       <div className={styles.editor}>
         {/* <button className={styles.button} onClick={() => setOpen(!open)}>
